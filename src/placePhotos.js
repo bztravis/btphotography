@@ -54,6 +54,7 @@ function placePhotos() {
             let photoCardImages = document.getElementsByClassName('cardImage')
             photoCardImages[currentCard].setAttribute('src', `./images/portfolio/${photoName}.png`)
             photoCardImages[currentCard].setAttribute('loading', 'lazy')
+            photoCardImages[currentCard].setAttribute('draggable', 'false')
             photoCardImages[currentCard].classList.add('cardImage')
             photoCardImages[currentCard].addEventListener('load', (e) => {
                 e.target.classList.add('loaded')
