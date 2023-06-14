@@ -28,6 +28,8 @@ function format() {
         if (staleSession) {
             setTimeout(() => {
                 checkToggleDownBtn()
+                document.querySelector('#contentContainer').addEventListener('scroll', checkToggleDownBtn)
+
             }, 500);
         }
         else {
@@ -35,6 +37,8 @@ function format() {
             setTimeout(() => {
                 contentContainer.style.overflow = 'scroll'
                 checkToggleDownBtn()
+                document.querySelector('#contentContainer').addEventListener('scroll', checkToggleDownBtn)
+
             }, 3500);
         }
     }
