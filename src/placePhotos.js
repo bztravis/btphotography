@@ -5,12 +5,12 @@ const photoConfig = [
   [400, 401], // Ben Gates
   [200, 206], // Jessica Davids
   [300, 318], // Aiden Engvall
-  [600, 605], // Sahil Sawant
   [700, 701], // Alex McConnell
   [800, 803], // Lucy Wu
   [900, 901], // Hendrik Sorensen
   [1000, 1002], // Jacob Sorensen
   [1100, 1101], // Erik Sorensen
+  [600, 605], // Sahil Sawant
 ]
 
 const exclude = [
