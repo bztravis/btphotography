@@ -1,6 +1,6 @@
 function format() {
 
-    let contentContainerWidth = window.innerWidth - (3 * 56) - 260
+    let contentContainerWidth = window.innerWidth - (3 * 56) - 240
     let contentContainerHeight = window.innerHeight - (2 * 56)
     let cardHeight = (contentContainerHeight / 2) - 4
     let cardWidth = (cardHeight / 3 * 2) + 1    // 1px for error
