@@ -1,7 +1,7 @@
 :root {
   /* dimensions */
   --bodyPadding: 56px;
-  --navBarWidth: 260px;
+  --navBarWidth: 240px;
   --contentContainerWidth: calc(
     100vw - 3 * var(--bodyPadding) - var(--navBarWidth)
   );
